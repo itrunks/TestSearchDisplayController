@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C79F73BA1889199800701A9C /* black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C79F73B91889199800701A9C /* black@2x.png */; };
+		F787A3F61888FF8100C463D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F51888FF8100C463D6 /* Foundation.framework */; };
+		F787A3F81888FF8100C463D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F71888FF8100C463D6 /* CoreGraphics.framework */; };
+		F787A3FA1888FF8100C463D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F91888FF8100C463D6 /* UIKit.framework */; };
+		F787A4001888FF8100C463D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F787A3FE1888FF8100C463D6 /* InfoPlist.strings */; };
+		F787A4021888FF8100C463D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F787A4011888FF8100C463D6 /* main.m */; };
+		F787A4061888FF8100C463D6 /* XCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F787A4051888FF8100C463D6 /* XCAAppDelegate.m */; };
+		F787A4091888FF8100C463D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F787A4071888FF8100C463D6 /* Main.storyboard */; };
+		F787A40C1888FF8100C463D6 /* XCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F787A40B1888FF8100C463D6 /* XCAViewController.m */; };
+		F787A40E1888FF8100C463D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F787A40D1888FF8100C463D6 /* Images.xcassets */; };
+		F787A4151888FF8100C463D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A4141888FF8100C463D6 /* XCTest.framework */; };
+		F787A4161888FF8100C463D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F51888FF8100C463D6 /* Foundation.framework */; };
+		F787A4171888FF8100C463D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F91888FF8100C463D6 /* UIKit.framework */; };
+		F787A41F1888FF8100C463D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F787A41D1888FF8100C463D6 /* InfoPlist.strings */; };
+		F787A4211888FF8100C463D6 /* TestSearchDisplayControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F787A4201888FF8100C463D6 /* TestSearchDisplayControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F787A4181888FF8100C463D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F787A3EA1888FF8100C463D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F787A3F11888FF8100C463D6;
+			remoteInfo = TestSearchDisplayController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79F73B91889199800701A9C /* black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black@2x.png"; sourceTree = "<group>"; };
+		F787A3F21888FF8100C463D6 /* TestSearchDisplayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSearchDisplayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F787A3F51888FF8100C463D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F787A3F71888FF8100C463D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F787A3F91888FF8100C463D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F787A3FD1888FF8100C463D6 /* TestSearchDisplayController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSearchDisplayController-Info.plist"; sourceTree = "<group>"; };
+		F787A3FF1888FF8100C463D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F787A4011888FF8100C463D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F787A4031888FF8100C463D6 /* TestSearchDisplayController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSearchDisplayController-Prefix.pch"; sourceTree = "<group>"; };
+		F787A4041888FF8100C463D6 /* XCAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAAppDelegate.h; sourceTree = "<group>"; };
+		F787A4051888FF8100C463D6 /* XCAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCAAppDelegate.m; sourceTree = "<group>"; };
+		F787A4081888FF8100C463D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F787A40A1888FF8100C463D6 /* XCAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAViewController.h; sourceTree = "<group>"; };
+		F787A40B1888FF8100C463D6 /* XCAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCAViewController.m; sourceTree = "<group>"; };
+		F787A40D1888FF8100C463D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F787A4131888FF8100C463D6 /* TestSearchDisplayControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSearchDisplayControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F787A4141888FF8100C463D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F787A41C1888FF8100C463D6 /* TestSearchDisplayControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSearchDisplayControllerTests-Info.plist"; sourceTree = "<group>"; };
+		F787A41E1888FF8100C463D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F787A4201888FF8100C463D6 /* TestSearchDisplayControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSearchDisplayControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F787A3EF1888FF8100C463D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A3F81888FF8100C463D6 /* CoreGraphics.framework in Frameworks */,
+				F787A3FA1888FF8100C463D6 /* UIKit.framework in Frameworks */,
+				F787A3F61888FF8100C463D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787A4101888FF8100C463D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A4151888FF8100C463D6 /* XCTest.framework in Frameworks */,
+				F787A4171888FF8100C463D6 /* UIKit.framework in Frameworks */,
+				F787A4161888FF8100C463D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F787A3E91888FF8100C463D6 = {
+			isa = PBXGroup;
+			children = (
+				F787A3FB1888FF8100C463D6 /* TestSearchDisplayController */,
+				F787A41A1888FF8100C463D6 /* TestSearchDisplayControllerTests */,
+				F787A3F41888FF8100C463D6 /* Frameworks */,
+				F787A3F31888FF8100C463D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F787A3F31888FF8100C463D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F787A3F21888FF8100C463D6 /* TestSearchDisplayController.app */,
+				F787A4131888FF8100C463D6 /* TestSearchDisplayControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F787A3F41888FF8100C463D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F787A3F51888FF8100C463D6 /* Foundation.framework */,
+				F787A3F71888FF8100C463D6 /* CoreGraphics.framework */,
+				F787A3F91888FF8100C463D6 /* UIKit.framework */,
+				F787A4141888FF8100C463D6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F787A3FB1888FF8100C463D6 /* TestSearchDisplayController */ = {
+			isa = PBXGroup;
+			children = (
+				F787A4041888FF8100C463D6 /* XCAAppDelegate.h */,
+				F787A4051888FF8100C463D6 /* XCAAppDelegate.m */,
+				F787A4071888FF8100C463D6 /* Main.storyboard */,
+				F787A40A1888FF8100C463D6 /* XCAViewController.h */,
+				F787A40B1888FF8100C463D6 /* XCAViewController.m */,
+				C79F73B91889199800701A9C /* black@2x.png */,
+				F787A40D1888FF8100C463D6 /* Images.xcassets */,
+				F787A3FC1888FF8100C463D6 /* Supporting Files */,
+			);
+			path = TestSearchDisplayController;
+			sourceTree = "<group>";
+		};
+		F787A3FC1888FF8100C463D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F787A3FD1888FF8100C463D6 /* TestSearchDisplayController-Info.plist */,
+				F787A3FE1888FF8100C463D6 /* InfoPlist.strings */,
+				F787A4011888FF8100C463D6 /* main.m */,
+				F787A4031888FF8100C463D6 /* TestSearchDisplayController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F787A41A1888FF8100C463D6 /* TestSearchDisplayControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F787A4201888FF8100C463D6 /* TestSearchDisplayControllerTests.m */,
+				F787A41B1888FF8100C463D6 /* Supporting Files */,
+			);
+			path = TestSearchDisplayControllerTests;
+			sourceTree = "<group>";
+		};
+		F787A41B1888FF8100C463D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F787A41C1888FF8100C463D6 /* TestSearchDisplayControllerTests-Info.plist */,
+				F787A41D1888FF8100C463D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F787A3F11888FF8100C463D6 /* TestSearchDisplayController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F787A4241888FF8100C463D6 /* Build configuration list for PBXNativeTarget "TestSearchDisplayController" */;
+			buildPhases = (
+				F787A3EE1888FF8100C463D6 /* Sources */,
+				F787A3EF1888FF8100C463D6 /* Frameworks */,
+				F787A3F01888FF8100C463D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSearchDisplayController;
+			productName = TestSearchDisplayController;
+			productReference = F787A3F21888FF8100C463D6 /* TestSearchDisplayController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F787A4121888FF8100C463D6 /* TestSearchDisplayControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F787A4271888FF8100C463D6 /* Build configuration list for PBXNativeTarget "TestSearchDisplayControllerTests" */;
+			buildPhases = (
+				F787A40F1888FF8100C463D6 /* Sources */,
+				F787A4101888FF8100C463D6 /* Frameworks */,
+				F787A4111888FF8100C463D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F787A4191888FF8100C463D6 /* PBXTargetDependency */,
+			);
+			name = TestSearchDisplayControllerTests;
+			productName = TestSearchDisplayControllerTests;
+			productReference = F787A4131888FF8100C463D6 /* TestSearchDisplayControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F787A3EA1888FF8100C463D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XCA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "XCool Apps";
+				TargetAttributes = {
+					F787A4121888FF8100C463D6 = {
+						TestTargetID = F787A3F11888FF8100C463D6;
+					};
+				};
+			};
+			buildConfigurationList = F787A3ED1888FF8100C463D6 /* Build configuration list for PBXProject "TestSearchDisplayController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F787A3E91888FF8100C463D6;
+			productRefGroup = F787A3F31888FF8100C463D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F787A3F11888FF8100C463D6 /* TestSearchDisplayController */,
+				F787A4121888FF8100C463D6 /* TestSearchDisplayControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F787A3F01888FF8100C463D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A40E1888FF8100C463D6 /* Images.xcassets in Resources */,
+				F787A4001888FF8100C463D6 /* InfoPlist.strings in Resources */,
+				C79F73BA1889199800701A9C /* black@2x.png in Resources */,
+				F787A4091888FF8100C463D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787A4111888FF8100C463D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A41F1888FF8100C463D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F787A3EE1888FF8100C463D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A4021888FF8100C463D6 /* main.m in Sources */,
+				F787A4061888FF8100C463D6 /* XCAAppDelegate.m in Sources */,
+				F787A40C1888FF8100C463D6 /* XCAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787A40F1888FF8100C463D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F787A4211888FF8100C463D6 /* TestSearchDisplayControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F787A4191888FF8100C463D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F787A3F11888FF8100C463D6 /* TestSearchDisplayController */;
+			targetProxy = F787A4181888FF8100C463D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F787A3FE1888FF8100C463D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F787A3FF1888FF8100C463D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F787A4071888FF8100C463D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F787A4081888FF8100C463D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F787A41D1888FF8100C463D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F787A41E1888FF8100C463D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F787A4221888FF8100C463D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F787A4231888FF8100C463D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F787A4251888FF8100C463D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSearchDisplayController/TestSearchDisplayController-Prefix.pch";
+				INFOPLIST_FILE = "TestSearchDisplayController/TestSearchDisplayController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F787A4261888FF8100C463D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSearchDisplayController/TestSearchDisplayController-Prefix.pch";
+				INFOPLIST_FILE = "TestSearchDisplayController/TestSearchDisplayController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F787A4281888FF8100C463D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestSearchDisplayController.app/TestSearchDisplayController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSearchDisplayController/TestSearchDisplayController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestSearchDisplayControllerTests/TestSearchDisplayControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F787A4291888FF8100C463D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestSearchDisplayController.app/TestSearchDisplayController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSearchDisplayController/TestSearchDisplayController-Prefix.pch";
+				INFOPLIST_FILE = "TestSearchDisplayControllerTests/TestSearchDisplayControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F787A3ED1888FF8100C463D6 /* Build configuration list for PBXProject "TestSearchDisplayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787A4221888FF8100C463D6 /* Debug */,
+				F787A4231888FF8100C463D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F787A4241888FF8100C463D6 /* Build configuration list for PBXNativeTarget "TestSearchDisplayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787A4251888FF8100C463D6 /* Debug */,
+				F787A4261888FF8100C463D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F787A4271888FF8100C463D6 /* Build configuration list for PBXNativeTarget "TestSearchDisplayControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F787A4281888FF8100C463D6 /* Debug */,
+				F787A4291888FF8100C463D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F787A3EA1888FF8100C463D6 /* Project object */;
+}
