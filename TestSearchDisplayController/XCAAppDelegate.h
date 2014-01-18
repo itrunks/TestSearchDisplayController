@@ -2,8 +2,8 @@
 //  XCAAppDelegate.h
 //  TestSearchDisplayController
 //
-//  Created by Kian Lim on 1/17/14.
-//  Copyright (c) 2014 XCool Apps. All rights reserved.
+//  Created by Raja on 1/17/14.
+//  Copyright (c) 2014 SearchBar Apps. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
