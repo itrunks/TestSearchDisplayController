@@ -35,4 +35,19 @@
     
 }
 
+- (void)searchBar:(UISearchBar *)searchBar selectedScopeButtonIndexDidChange:(NSInteger)selectedScope {
+    scopeButtonPressedIndexNumber = [NSNumber numberWithInt:selectedScope];
+    
+}
+
+- (BOOL) searchBarShouldBeginEditing:(UISearchBar *)searchBar {
+    if (scopeButtonPressedIndexNumber !=nil) {
+        scopeButtonPressedIndexNumber = nil; //reset it to nil
+        return NO; //prevent the search controller appearing
+    }
+    else {
+        return YES; //allow
+    }
+}
+
 @end

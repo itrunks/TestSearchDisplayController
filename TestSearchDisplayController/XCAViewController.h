@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XCAViewController : UITableViewController<UISearchBarDelegate,UISearchDisplayDelegate>
+@interface XCAViewController : UITableViewController<UISearchBarDelegate,UISearchDisplayDelegate> {
+    NSNumber * scopeButtonPressedIndexNumber;
+}
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C80A010188BADB6002C0721 /* MySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C80A00F188BADB6002C0721 /* MySearchBar.m */; };
 		C79F73BA1889199800701A9C /* black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C79F73B91889199800701A9C /* black@2x.png */; };
 		F787A3F61888FF8100C463D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F51888FF8100C463D6 /* Foundation.framework */; };
 		F787A3F81888FF8100C463D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F787A3F71888FF8100C463D6 /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C80A00E188BADB6002C0721 /* MySearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySearchBar.h; sourceTree = "<group>"; };
+		4C80A00F188BADB6002C0721 /* MySearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySearchBar.m; sourceTree = "<group>"; };
 		C79F73B91889199800701A9C /* black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black@2x.png"; sourceTree = "<group>"; };
 		F787A3F21888FF8100C463D6 /* TestSearchDisplayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSearchDisplayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F787A3F51888FF8100C463D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +87,8 @@
 		F787A3E91888FF8100C463D6 = {
 			isa = PBXGroup;
 			children = (
+				4C80A00E188BADB6002C0721 /* MySearchBar.h */,
+				4C80A00F188BADB6002C0721 /* MySearchBar.m */,
 				F787A3FB1888FF8100C463D6 /* TestSearchDisplayController */,
 				F787A41A1888FF8100C463D6 /* TestSearchDisplayControllerTests */,
 				F787A3F41888FF8100C463D6 /* Frameworks */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F787A4021888FF8100C463D6 /* main.m in Sources */,
+				4C80A010188BADB6002C0721 /* MySearchBar.m in Sources */,
 				F787A4061888FF8100C463D6 /* XCAAppDelegate.m in Sources */,
 				F787A40C1888FF8100C463D6 /* XCAViewController.m in Sources */,
 			);
