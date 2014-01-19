@@ -17,7 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.title = @"Search View";
 	
+    testArray = [[NSArray alloc] initWithObjects:@"Dog", @"Rose",@"Cat", @"Tulip", @"Mouse", nil];
 
 }
 
@@ -34,5 +37,56 @@
 -(void)viewWillLayoutSubviews{
     
 }
+
+- (NSInteger)numberOfSectionsInTableView: (UITableView *)tableView {
+    
+    return 1;
+    
+}
+
+
+- (NSInteger)tableView: (UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return [testArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)myTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [myTableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    // Configure the cell.
+    cell.textLabel.text = [testArray objectAtIndex: [indexPath row]];
+    
+    return cell;
+}
+
+-(BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar {
+    return YES;
+}
+
+- (BOOL) searchBarShouldEndEditing:(UISearchBar *)searchBar {
+    return YES;
+}
+
+- (void) searchDisplayController:(UISearchDisplayController *)controller willHideSearchResultsTableView:(UITableView *)tableView {
+    NSLog(@"WillHideSearchResults");
+}
+
+- (void) searchDisplayController:(UISearchDisplayController *)controller willUnloadSearchResultsTableView:(UITableView *)tableView {
+    NSLog(@"WillUnloadSearchResults");
+}
+
+- (void) searchDisplayControllerWillEndSearch:(UISearchDisplayController *)controller {
+    NSLog(@"WillEndSearch");
+}
+
+
+
 
 @end
